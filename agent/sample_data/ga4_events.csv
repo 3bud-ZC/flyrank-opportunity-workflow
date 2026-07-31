@@ -1,0 +1,7 @@
+event_date,event_name,page_location,session_id,engaged_session,purchase_revenue,device,geo,traffic_source,ecommerce
+20260701,page_view,https://flewd.example/sleep/magnesium-bath,s1,true,0,"{""category"": ""mobile""}","{""country"": ""US""}","{""source"": ""google""}",{}
+20260701,page_view,https://flewd.example/sleep/magnesium-bath,s2,false,0,"{""category"": ""mobile""}","{""country"": ""US""}","{""source"": ""google""}",{}
+20260701,page_view,https://flewd.example/blog/magnesium-types,s3,false,0,"{""category"": ""desktop""}","{""country"": ""US""}","{""source"": ""google""}",{}
+20260701,page_view,https://flewd.example/recovery/sore-muscles,s4,true,0,"{""category"": ""mobile""}","{""country"": ""GB""}","{""source"": ""google""}",{}
+20260701,page_view,https://flewd.example/products/magnesium-soak,s5,true,0,"{""category"": ""mobile""}","{""country"": ""US""}","{""source"": ""google""}","{""value"": 39.0}"
+20260701,purchase,https://flewd.example/products/magnesium-soak,s5,true,39.0,"{""category"": ""mobile""}","{""country"": ""US""}","{""source"": ""google""}","{""value"": 39.0}"
