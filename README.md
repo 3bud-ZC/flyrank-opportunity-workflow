@@ -72,6 +72,10 @@ landing_page,sessions,engaged_sessions,conversions
 
 The workflow does not publish changes, create tickets, infer missing query text, or treat its score as a performance guarantee. A human must verify search intent, tracking quality, page content, and final priorities.
 
+## Deployment verification
+
+GitHub Pages was enabled with GitHub Actions on 31 July 2026. Every push to `main` runs the five-case test suite and production build before deployment.
+
 ## Assignment
 
 FlyRank AI Internship — General AI Fluency — Week 4 — FL-04: Ship an Automation Workflow v2.
