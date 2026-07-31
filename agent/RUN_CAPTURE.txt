@@ -1,0 +1,27 @@
+FlyRank Opportunity Scout
+Goal: produce a ranked, evidence-based content opportunity brief.
+Mode: local-only; no network calls; source files remain read-only.
+
+[tool] Inspecting allowlisted folder: agent/sample_data
+[tool] Classified ga4_events.csv as ga4_events
+[tool] Classified gsc_site.csv as gsc_site
+[tool] Classified gsc_url.csv as gsc_url
+[tool] Selected one approved parser for each required dataset.
+[tool] Reading gsc_site.csv
+[tool] Reading gsc_url.csv
+[tool] Reading ga4_events.csv
+[tool] Flattened GA4 JSON fields; quarantined values: 0
+[tool] Aggregated GSC demand for 4 landing pages.
+[tool] Aggregated GA4 engagement for 4 landing pages.
+[tool] Scored 4 landing-page opportunities.
+[tool] Wrote opportunity_report.json
+[tool] Wrote opportunity_brief.md
+
+Run completed
+Rows: 4 GSC site, 5 GSC URL, 6 GA4 events
+1. /blog/magnesium-types | 87.7/100 | CTR unlock | low confidence
+2. /sleep/magnesium-bath | 75.7/100 | CTR unlock | low confidence
+3. /recovery/sore-muscles | 68.6/100 | CTR unlock | low confidence
+4. /products/magnesium-soak | 44.4/100 | protected strong performer | low confidence
+
+Human review is required before any content change.

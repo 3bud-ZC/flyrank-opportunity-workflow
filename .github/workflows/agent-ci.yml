@@ -1,0 +1,32 @@
+name: Validate Week 5 personal agent
+
+on:
+  pull_request:
+    branches: ['main']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  agent-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run five agent tests
+        run: python -m unittest discover -s agent/tests -v
+
+      - name: Run the agent end to end
+        run: python agent/flyrank_agent.py --input agent/sample_data --output agent/output
+
+      - name: Verify generated outputs
+        run: |
+          test -s agent/output/opportunity_report.json
+          test -s agent/output/opportunity_brief.md

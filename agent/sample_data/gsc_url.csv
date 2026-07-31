@@ -1,0 +1,6 @@
+date,query,landing_page,impressions,clicks,ctr,position,product_snippet,merchant_listing
+2026-07-01,magnesium bath for sleep,https://flewd.example/sleep/magnesium-bath,2400,42,0.0175,7.4,false,false
+2026-07-01,,https://flewd.example/sleep/magnesium-bath,700,5,0.0071,9.8,false,false
+2026-07-01,magnesium taurate vs glycinate,https://flewd.example/blog/magnesium-types,1800,20,0.0111,8.2,false,false
+2026-07-01,magnesium for sore muscles,https://flewd.example/recovery/sore-muscles,900,11,0.0122,6.7,false,false
+2026-07-01,best magnesium soak,https://flewd.example/products/magnesium-soak,700,28,0.04,2.3,true,true
