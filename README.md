@@ -6,6 +6,14 @@ A browser-only FL-04 workflow for validating, joining, scoring, reviewing, and e
 
 `https://3bud-zc.github.io/flyrank-opportunity-workflow/`
 
+## Final capstone review
+
+- Capstone review page: https://portfolio.abud.fun/capstone/
+- Reviewer guide: [docs/CAPSTONE_REVIEW.md](docs/CAPSTONE_REVIEW.md)
+- Launch story: [docs/LAUNCH_STORY.md](docs/LAUNCH_STORY.md)
+- Narrated demo: https://drive.google.com/file/d/1r4UBxmlSc0gAr8hjLZTfTA5j2GjQ15r3/view
+- Capstone documentation: https://app.notion.com/p/3a747bf43cf3812dbf83e9a6f614eabf
+
 ## What it does
 
 1. Reads a GSC CSV and a GA4 landing-page CSV locally in the browser.
@@ -78,6 +86,6 @@ GitHub Pages was enabled with GitHub Actions on 31 July 2026. Every push to `mai
 
 ## Assignment
 
-FlyRank AI Internship — General AI Fluency — Week 4 — FL-04: Ship an Automation Workflow v2.
+FlyRank AI Internship — General AI Fluency — Week 4 — FL-04: Ship an Automation Workflow v2, extended into the final General AI Fluency impact project.
 
 Built by Abdullah Ragab.
